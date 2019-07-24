@@ -1,0 +1,277 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-23T16:57:45.044Z",
+        "line": 6,
+        "name": "Crear un RFC Nuevo",
+        "description": "",
+        "id": "rfc;crear-un-rfc-nuevo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat steps.StepDefinitions.nuevo_Usuario_esta_registrado(StepDefinitions.java:12)\n\tat ✽.Nuevo Usuario esta registrado(file:src/test/resources/features/merchant_dashboard.feature:7)\n",
+              "duration": 2193611,
+              "status": "pending"
+            },
+            "line": 7,
+            "name": "Nuevo Usuario esta registrado",
+            "match": {
+              "location": "StepDefinitions.nuevo_Usuario_esta_registrado()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15693,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Usuario no tiene RFC",
+            "match": {
+              "location": "StepDefinitions.usuario_no_tiene_RFC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17885,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Usuario se logea a la MD",
+            "match": {
+              "location": "StepDefinitions.usuario_se_logea_a_la_MD()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10310,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Usiario crea un nuevo RFC",
+            "match": {
+              "location": "StepDefinitions.usiario_crea_un_nuevo_RFC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5101,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Mensaje de confirmation desplegado",
+            "match": {
+              "location": "StepDefinitions.mensaje_de_confirmation_desplegado()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5199,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "debe existir el RFC en la pantalla de facturas",
+            "match": {
+              "location": "StepDefinitions.debe_existir_el_RFC_en_la_pantalla_de_facturas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5044,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "debe existir en la DB",
+            "match": {
+              "location": "StepDefinitions.debe_existir_en_la_DB()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-23T16:57:45.052Z",
+        "line": 15,
+        "name": "Editar RFC",
+        "description": "",
+        "id": "rfc;editar-rfc",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat steps.StepDefinitions.amin_user_already_have_an_RFC(StepDefinitions.java:54)\n\tat ✽.amin_user already have an RFC(file:src/test/resources/features/merchant_dashboard.feature:16)\n",
+              "duration": 147415,
+              "status": "pending"
+            },
+            "line": 16,
+            "name": "amin_user already have an RFC",
+            "match": {
+              "location": "StepDefinitions.amin_user_already_have_an_RFC()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4461,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Usuario se logea a la MD",
+            "match": {
+              "location": "StepDefinitions.usuario_se_logea_a_la_MD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4536,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "he edit the existing RFC",
+            "match": {
+              "location": "StepDefinitions.he_edit_the_existing_RFC()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8891,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Mensaje de confirmation desplegado",
+            "match": {
+              "location": "StepDefinitions.mensaje_de_confirmation_desplegado()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4174,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "debe existir el RFC en la pantalla de facturas",
+            "match": {
+              "location": "StepDefinitions.debe_existir_el_RFC_en_la_pantalla_de_facturas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4062,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "debe existir en la DB",
+            "match": {
+              "location": "StepDefinitions.debe_existir_en_la_DB()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-23T16:57:45.053Z",
+        "line": 23,
+        "name": "Intentar eliminar el RFC",
+        "description": "",
+        "id": "rfc;intentar-eliminar-el-rfc",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat steps.StepDefinitions.amin_user_already_have_an_RFC(StepDefinitions.java:54)\n\tat ✽.amin_user already have an RFC(file:src/test/resources/features/merchant_dashboard.feature:24)\n",
+              "duration": 125084,
+              "status": "pending"
+            },
+            "line": 24,
+            "name": "amin_user already have an RFC",
+            "match": {
+              "location": "StepDefinitions.amin_user_already_have_an_RFC()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4041,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Usuario se logea a la MD",
+            "match": {
+              "location": "StepDefinitions.usuario_se_logea_a_la_MD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "he tries to eliminate the existing RFC",
+            "match": {
+              "location": "StepDefinitions.he_tries_to_eliminate_the_existing_RFC()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3921,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Mensaje de error es desplegado",
+            "match": {
+              "location": "StepDefinitions.mensaje_de_error_es_desplegado()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3979,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "debe existir el RFC en la pantalla de facturas",
+            "match": {
+              "location": "StepDefinitions.debe_existir_el_RFC_en_la_pantalla_de_facturas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3985,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "debe existir en la DB",
+            "match": {
+              "location": "StepDefinitions.debe_existir_en_la_DB()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "RFC",
+    "description": "  As an Admin User\n  I want to create and update my Tax Code (RFC)",
+    "id": "rfc",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/merchant_dashboard.feature",
+    "tags": []
+  }
+]
