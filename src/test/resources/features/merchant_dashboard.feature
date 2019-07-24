@@ -29,7 +29,10 @@ Feature: RFC
     And debe existir en la DB
   
 #
-  #Scenario: Crear RFC invalido
+  Scenario: Crear RFC invalido
+  Given A
+  When B
+  Then C
 #
   #Scenario: Editar RFC invalido
 #
