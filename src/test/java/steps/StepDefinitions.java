@@ -9,12 +9,14 @@ public class StepDefinitions {
 	@Given("Nuevo Usuario esta registrado")
 	public void nuevo_Usuario_esta_registrado() {
 	    System.out.println("Paso no implementado");
+	    System.out.println("Paso actualizado");
 	}
 
 	@Given("Usuario no tiene RFC")
 	public void usuario_no_tiene_RFC() {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new cucumber.api.PendingException();
+	    System.out.println("Paso no implementado");
+	    System.out.println("Paso actualizado");
 	}
 
 	@When("Usuario se logea a la MD")
