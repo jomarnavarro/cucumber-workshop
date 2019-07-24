@@ -8,8 +8,7 @@ public class StepDefinitions {
 	
 	@Given("Nuevo Usuario esta registrado")
 	public void nuevo_Usuario_esta_registrado() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new cucumber.api.PendingException();
+	    System.out.println("Paso no implementado");
 	}
 
 	@Given("Usuario no tiene RFC")
