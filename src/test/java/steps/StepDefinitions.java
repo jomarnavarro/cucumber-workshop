@@ -22,13 +22,15 @@ public class StepDefinitions {
 	@When("Usuario se logea a la MD")
 	public void usuario_se_logea_a_la_MD() {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new cucumber.api.PendingException();
+		System.out.println("Paso no implementado");
+	    System.out.println("Paso actualizado");
 	}
 
 	@When("Usiario crea un nuevo RFC")
 	public void usiario_crea_un_nuevo_RFC() {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new cucumber.api.PendingException();
+		System.out.println("Paso no implementado");
+	    System.out.println("Paso actualizado");
 	}
 
 	@Then("Mensaje de confirmation desplegado")
